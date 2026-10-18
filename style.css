@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333333;
+  line-height: 1.6;
+  background-color: #fafafa;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ffffff;
+  padding: 18px 40px;
+  border-bottom: 2px solid #f0f0f0;
+  text-align: center;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #e63946;
+  margin-bottom: 10px;
+}
+
+.navbar nav a {
+  color: #4a4a4a;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.navbar nav a:hover {
+  color: #e63946;
+}
+
+/* Hero Section */
+.hero {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #e63946;
+  color: #ffffff;
+  padding: 12px 28px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+/* About Section */
+.about {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about h2, .menu h2 {
+  font-size: 30px;
+  color: #1d3557;
+  margin-bottom: 20px;
+}
+
+/* Menu Section */
+.menu {
+  background-color: #f1faee;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.menu-grid {
+  max-width: 1000px;
+  margin: 30px auto 0 auto;
+  text-align: left;
+}
+
+.menu-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+}
+
+.menu-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.menu-card h3 {
+  font-size: 20px;
+  color: #1d3557;
+  margin-bottom: 8px;
+}
+
+.menu-card p {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 12px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e63946;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #1d3557;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px 20px 20px;
+}
+
+.footer-content h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #f1faee;
+}
+
+.footer-content p {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.copyright {
+  margin-top: 25px;
+  border-top: 1px solid #457b9d;
+  padding-top: 15px;
+  font-size: 12px;
+  color: #a8dadc;
+}
